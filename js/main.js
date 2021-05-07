@@ -114,7 +114,7 @@ let XoaSinhVien = () => {
     danhSachSinhVien.xoaSinhVien(arrayCheckInput);
     CapNhatDanhSachSV(danhSachSinhVien);
 }
-GetStorage();
+// GetStorage();
 let FixSinhVien = () => {
     // console.log(event)
     let svFix = danhSachSinhVien.timSinhVien(event.path[1].getAttribute('data-id'));
